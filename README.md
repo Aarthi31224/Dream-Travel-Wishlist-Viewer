@@ -1,129 +1,70 @@
-[Uploading README (1).md…]()
-# 🌍 Dream Travel Wishlist Viewer
+# Getting Started with Create React App
 
-A **Dream Travel Wishlist Viewer** is a web application that allows
-users to create and manage their dream travel destinations. Users can
-log in, add travel places they wish to visit, store notes, and view them
-in interactive destination cards.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is built using **React.js** and modern frontend
-technologies to provide a clean and user-friendly experience.
+## Available Scripts
 
-------------------------------------------------------------------------
+In the project directory, you can run:
 
-## 📖 Introduction
+### `npm start`
 
-Dream Travel Wishlist Viewer helps users organize their dream
-destinations in one place.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Users can log in, add destinations through a form, and view them as
-cards containing travel information and notes.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-It acts like a **personal travel notebook** where users can keep track
-of places they want to visit.
+### `npm test`
 
-------------------------------------------------------------------------
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 📌 Project Description
+### `npm run build`
 
-This project provides a simple interface to manage travel wishlists.
-Each destination added by the user is saved and displayed in a **card
-format**, allowing easy visualization of travel plans.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The application uses **React state management and local storage** to
-store user travel notes.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-------------------------------------------------------------------------
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## ✨ Features
+### `npm run eject`
 
--   🔐 **Login Page** -- User authentication before accessing the
-    application.
--   📝 **Add Destination Form** -- Users can enter travel details such
-    as destination name and notes.
--   🗂 **Cards Page (Wishlist Viewer)** -- Displays saved travel
-    destinations in card format.
--   💾 **Local Storage Support** -- Saves travel wishlist data locally
-    in the browser.
--   🗑 **Delete Destination** -- Remove destinations from the wishlist.
--   🎨 **Responsive UI** -- Simple and clean user interface.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-------------------------------------------------------------------------
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## ⚙️ Technologies Used
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
--   React.js
--   JavaScript (ES6)
--   HTML5
--   CSS3
--   Bootstrap / Material UI
--   Local Storage
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-------------------------------------------------------------------------
+## Learn More
 
-## 🚀 Steps to Run the Project
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### 1️⃣ Clone the Repository
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-git clone
-https://github.com/yourusername/dream-travel-wishlist-viewer.git
+### Code Splitting
 
-### 2️⃣ Navigate to the Project Folder
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-cd dream-travel-wishlist-viewer
+### Analyzing the Bundle Size
 
-### 3️⃣ Install Dependencies
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-npm install
+### Making a Progressive Web App
 
-### 4️⃣ Start the Application
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-npm start
+### Advanced Configuration
 
-### 5️⃣ Open in Browser
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-http://localhost:3000
+### Deployment
 
-------------------------------------------------------------------------
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## 📁 Folder Structure
+### `npm run build` fails to minify
 
-dream-travel-wishlist-viewer │ ├── public │ └── index.html │ ├── src │
-├── components │ │ ├── Login.js │ │ ├── Form.js │ │ ├── Cards.js │ │ │
-├── App.js │ ├── index.js │ ├── App.css │ ├── package.json └── README.md
-
-------------------------------------------------------------------------
-
-## 🖼 Application Flow
-
-1.  User logs into the application
-2.  User adds a travel destination using the form
-3.  Destination details are saved in **Local Storage**
-4.  Destinations are displayed as **travel cards**
-5.  User can manage their travel wishlist easily
-
-------------------------------------------------------------------------
-
-## 📌 Future Improvements
-
--   User authentication with backend
--   Cloud database storage
--   Destination images upload
--   Map integration
--   Edit destination feature
--   Share wishlist with friends
-
-------------------------------------------------------------------------
-
-## 👩‍💻 About
-
-**Project Name:** Dream Travel Wishlist Viewer\
-**Type:** Frontend Web Application\
-**Purpose:** Manage personal travel wishlist and notes.
-
-**Publisher:** Aarthi K
-
-------------------------------------------------------------------------
-
-⭐ If you like this project, consider **starring the repository on
-GitHub!**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

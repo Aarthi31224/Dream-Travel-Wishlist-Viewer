@@ -1,0 +1,197 @@
+/*Body  */
+body {
+    font-family:cursive;
+    font-size: x-large;
+    background-color: #f2f2f2;
+
+}
+
+
+
+/*  Main Container */
+
+.box1{
+    background: rgba(255, 255, 255, 0.2);  /* transparency */
+    backdrop-filter: blur(10px);           /* glass blur effect */
+    webkit-backdrop-filter: blur(10px);   /* for Safari */
+    padding: 60px;
+    border-radius: 12px;
+    width: 600px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.login-page{
+     margin: 0;
+     height: 100vh;
+     background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+.box2{
+   
+        background: rgba(255, 255, 255, 0.2);  /* transparency */
+        backdrop-filter: blur(10px);           /* glass blur effect */
+        -webkit-backdrop-filter: blur(00px);   /* for Safari */
+        padding: 60px;
+        border-radius: 12px;
+        width: 600px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+.form-page{
+     margin: 0;
+     height: 100vh;
+     background-image: url("https://www.muchbetteradventures.com/magazine/content/images/2022/10/friendship.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+.box3{
+        /* width:500px;
+        margin: auto;
+        margin-top: 250px;
+        background-color: rgb(243, 244, 237);
+        padding: 60px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px gray;  */
+    background: rgba(255, 255, 255, 0.2);  /* transparency */
+    backdrop-filter: blur(10px);           /* glass blur effect */
+    -webkit-backdrop-filter: blur(00px);   /* for Safari */
+    padding: 60px;
+    border-radius: 12px;
+    width: 600px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+.card-page{
+     margin: 0;
+     height: 100vh;
+     background-image:url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 40px;
+    font-family:cursive;
+    overflow-wrap: break-word;
+    font-size: larger;
+
+}
+
+/* Buttons */
+button {
+    padding: 8px 10px;
+    margin: 20px 0;
+    border-radius: 90px;
+    border: none;
+    background-color: rgb(13, 19, 13);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family:cursive;
+    font-size: 19px;
+
+}
+
+/* Logout Button */
+.logout {
+    float: right;
+    background-color: red;
+    width: 110px;
+    height: 50px;
+}
+
+/*  Cards*/
+.cards-container-vertical {
+    display: flex;
+    flex-direction: column; /* Vertical layout */
+    gap: 15px; /* Space between cards */
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+/*  Status Buttons (Visited / Not Visited) */
+.status-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.status-btn {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.status-btn.visited {
+    background-color: green;
+    color: white;
+    font-family:cursive;
+    font-size: 19px;
+}
+
+.status-btn.not-visited {
+    background-color: red;
+    color: white;
+    font-family:cursive;
+    font-size: 19px;
+}
+
+/*  Delete Button */
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.login-btn{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+.login-btn1{
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    font-size: medium;
+}
+.box2 h3{
+    font-size: 30px;
+}
+.form-btn1{
+    width: 170px;
+    height: 50px;
+}
+
