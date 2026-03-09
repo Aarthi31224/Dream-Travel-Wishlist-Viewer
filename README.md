@@ -83,13 +83,7 @@ npm start
 
 http://localhost:3000
 
-------------------------------------------------------------------------
 
-## 📁 Folder Structure
-
-dream-travel-wishlist-viewer │ ├── public │ └── index.html │ ├── src │
-├── components │ │ ├── Login.js │ │ ├── Form.js │ │ ├── Cards.js │ │ │
-├── App.js │ ├── index.js │ ├── App.css │ ├── package.json └── README.md
 
 ------------------------------------------------------------------------
 
